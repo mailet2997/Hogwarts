@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cena de Bienvenida</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cena de Bienvenida a Hogwarts</h1>
+        <div id="infoEstudiante" class="hidden">
+            <!--contenedor de estudiantes-->
+        </div> 
+        <div id="infoEs">
+            <h2>Información del Estudiante</h2>
+           
+            <!-- <p><strong>Nombre:</strong> <span id="nombreEstudiante"></span></p>
+            <p><strong>Edad:</strong> <span id="edadEstudiante"></span></p>
+            <p><strong>Linaje:</strong> <span id="linajeEstudiante"></span></p>
+            <p><strong>Casa:</strong> <span id="casaEstudiante"></span></p>
+            <p><strong>Animal del Expecto Patronum:</strong> <span id="animalPatronusEstudiante"></span></p>
+            <p><strong>Cualidades:</strong> <span id="cualidadesEstudiante"></span></p> -->
+        </div>
+
+        <!-- Mostrar la imagen de las 4 casas de Hogwarts -->
+        <div class="casas-container">
+            <img src="/casa/gryffindor.png" alt="Gryffindor">
+            <img src="/casa/hufflepuff.png" alt="Hufflepuff">
+            <img src="/casa/ravenclaw.png" alt="Ravenclaw">
+            <img src="/casa/slytherin.png" alt="Slytherin">
+        </div>
+
+        <!-- Mostrar la casa asignada por la función en hogwarts.js -->
+        <h3>Casa Asignada:</h3>
+        <p id="casaAsignada"></p>
+
+        <!-- Botón para ir a clases -->
+        <button id="btnIrAClases">Ir a Clases</button>
+    </div>
+
+    <script src="hogwarts.js"></script>
+    <script src="cena.js"></script>
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
+

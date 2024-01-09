@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bienvenido a Hogwarts</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a Hogwarts, Estudiante</h1>
+        <form id="formularioHogwarts" >
+            <div class="avatar-container">
+                <img src="/imagen.jpeg" alt="Avatar del estudiante">
+            </div>
+            <div class="info-container">
+            <h2>Información del Estudiante</h2>
+            <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" value="" placeholder="Angela">
+            <label for="edad">Edad:</label>
+                <input type="number" id="edad" >
+            <label for="linaje">Linaje:</label>
+                <input type="text" id="linaje">
+            <label for="casa">Casa:</label>
+                <input type="text" id="casa" readonly>
+            <label for="animalPatronus">Animal del Expecto Patronum:</label>
+                <input type="text" id="animalPatronus" readonly>
+            <label for="cualidades">Cualidades:</label>
+                <input type="text" id="cualidades" >    
+            <button type="submit">Registrarse</button>       
+            
+        </div>
+        </form>
+        <!---información del estudiante-->
+        <div id="infoEs">
+            <!-- Contenedor de información del estudiante -->
+        </div> 
+        <!---boton para ir a la cena-->
+        <button id="btnCena" class="hidden">Vamos a la cena de bienvenida</button>
+    </div>
+
+    <script src="hogwarts.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

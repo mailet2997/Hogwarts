@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.mapa {
+    position: relative;
+    height: 100vh; /* Vista completa del viewport */
+    background-image:url("/pxfuel.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.paso {
+    position: absolute;
+    bottom: 10%; /* Ajusta según tu diseño */
+    left: 10%; /* Ajusta según tu diseño */
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    animation: recorrerMapa 10s linear infinite;
+}
+
+@keyframes recorrerMapa {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+    
+}

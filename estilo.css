@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eee;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    
+}
+
+.avatar-container {
+    flex: 1;
+    text-align: center;
+}
+
+.avatar-container img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.info-container {
+    flex: 2;
+    padding: 0 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 10px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+h1{
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#infoEstudiante {
+    margin-top: 20px;
+}
+
+#btnCena {
+    margin-top: 20px;
+    background-color: #1e73be;
+}
+
+/* css de cena*/
+#btnIrAClases {
+    padding: 10px;
+    background-color: #1e73be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.casas-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.casas-container img {
+    width: 100px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
